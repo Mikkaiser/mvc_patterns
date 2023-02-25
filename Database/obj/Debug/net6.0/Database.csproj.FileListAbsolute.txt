@@ -384,10 +384,8 @@ C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\ref
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.CSharp.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Binder.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
-C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Ini.dll
@@ -424,7 +422,6 @@ C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\ref
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.dll
-C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.Primitives.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Extensions.WebEncoders.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.JSInterop.dll
 C:\Users\Mikkaiser\Documents\Projects\mvc_patterns\Database\bin\Debug\net6.0\refs\Microsoft.Net.Http.Headers.dll

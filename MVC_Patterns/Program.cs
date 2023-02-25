@@ -22,6 +22,10 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.MapControllerRoute(
+    name: "Pages",
+    pattern: "pages",
+    defaults: new { controller = "Pages", action = "Index" });
 
 app.MapControllerRoute(
     name: "privacy",

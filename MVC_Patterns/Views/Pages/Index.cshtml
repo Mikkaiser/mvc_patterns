@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Page";
+    List<Business.Page> pages = ViewBag.Pages;
+}
+
+<div class="jumbotron">
+    <h1>Pages</h1>
+    <table class="table">
+        <tr>
+            <td>ID</td>
+            <td>Name</td>
+            <td>Date</td>
+        </tr>
+        @foreach (Business.Page item in pages)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Date</td>
+            </tr>
+        }
+    </table>
+</div>
