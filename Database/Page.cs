@@ -20,7 +20,7 @@ public class Page
 
     private string GetDatabaseConnection()
     {
-        var conn = _configuration.GetConnectionString("SqlServerConnectionString");
+        var conn = _configuration.GetConnectionString("SqlServerConnectionStringWithCredentials");
         return conn;
     }
 
@@ -38,5 +38,21 @@ public class Page
         DataTable table = new DataTable();
         adapter.Fill(table);
         return table;
+    }
+
+    public void Save(int id, string name, string content, DateTime date)
+    {
+        SqlConnection sqlConnection = new(GetDatabaseConnection());
+
+        string queryString = $"INSERT INTO PAGES(NAME, DATE, CONTENT) VALUES ({name}, {date.ToString("yyyy-mm-dd hh:mm:ss")}, {content})";
+
+        if (String.IsNullOrEmpty(id.ToString()))
+        {
+            queryString = $"UPDATE PAGES SET NAME='{name}', DATE='{date.ToString("yyyy-mm-dd hh:mm:ss")}', CONTENT='{content}' WHERE ID={id}";
+        }
+
+        SqlCommand command = new(queryString, sqlConnection);
+        command.Connection.Open();
+        command.ExecuteNonQuery();
     }
 }

@@ -41,4 +41,9 @@ public class Page
 
         return dataList;
     }
+
+    public void Save()
+    {
+        new Database.Page(_configuration).Save(this.Id, this.Name, this.Content, this.Date);
+    }
 }

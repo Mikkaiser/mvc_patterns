@@ -1,0 +1,22 @@
+﻿<div class="jumbotron">
+    <h3>New Page</h3>
+    <div>
+        <a href="/pages" class="btn btn-primary">Back</a>
+    </div>
+
+    <form action="/pages/create" method="post">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Name:</label>
+            <input type="text" name="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter name">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Date:</label>
+            <input type="datetime" name="date" class="form-control" id="exampleInputPassword1" placeholder="Date">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputContent3">Content:</label>
+            <textarea name="content" class="form-control" id="exampleInputContent3" placeholder="Content"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>

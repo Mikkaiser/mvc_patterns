@@ -28,6 +28,16 @@ app.MapControllerRoute(
     defaults: new { controller = "Pages", action = "Index" });
 
 app.MapControllerRoute(
+    name: "pages_new",
+    pattern: "pages/new",
+    defaults: new { controller = "Pages", action = "New" });
+
+app.MapControllerRoute(
+    name: "pages_create",
+    pattern: "pages/create",
+    defaults: new { controller = "Pages", action = "CreatePage" });
+
+app.MapControllerRoute(
     name: "privacy",
     pattern: "privacidade",
     defaults: new { controller = "Home", action = "Privacy" });

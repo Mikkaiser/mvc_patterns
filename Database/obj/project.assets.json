@@ -1823,23 +1823,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mikkaiser\\.nuget\\packages\\": {},
+    "C:\\Users\\mikael.simoes\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mikkaiser\\Documents\\Projects\\mvc_patterns\\Database\\Database.csproj",
+      "projectUniqueName": "C:\\Users\\mikael.simoes\\Projects\\mvc_patterns\\Database\\Database.csproj",
       "projectName": "Database",
-      "projectPath": "C:\\Users\\Mikkaiser\\Documents\\Projects\\mvc_patterns\\Database\\Database.csproj",
-      "packagesPath": "C:\\Users\\Mikkaiser\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mikkaiser\\Documents\\Projects\\mvc_patterns\\Database\\obj\\",
+      "projectPath": "C:\\Users\\mikael.simoes\\Projects\\mvc_patterns\\Database\\Database.csproj",
+      "packagesPath": "C:\\Users\\mikael.simoes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mikael.simoes\\Projects\\mvc_patterns\\Database\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mikkaiser\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mikael.simoes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1899,7 +1899,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

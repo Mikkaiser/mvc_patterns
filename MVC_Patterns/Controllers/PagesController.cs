@@ -21,6 +21,28 @@ public class PagesController : Controller
         return View();
     }
 
+    public IActionResult New()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public void CreatePage()
+    {
+        DateTime.TryParse(HttpContext.Request.Form["date"], out DateTime date);
+
+        Page page = new(_configuration)
+        {
+            Name = HttpContext.Request.Form["name"],
+            Content = HttpContext.Request.Form["content"],
+            Date = date,
+        };
+
+        page.Save();
+
+        Response.Redirect("/pages");
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
